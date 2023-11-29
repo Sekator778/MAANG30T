@@ -9,3 +9,6 @@ Find minimum number of swaps.
 ## Task 3
 Задача 3. Найти количество nice subarrays (масив считается nice если в нем ровно k нечетных чисел)
 - [task3 condition](https://leetcode.com/problems/count-number-of-nice-subarrays/)
+## Task 4
+Задача 4. Найти максимальное значение суммы под массива, в котором нет повторяющихся элементов
+- [task4 condition](https://leetcode.com/problems/maximum-erasure-value/)

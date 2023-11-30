@@ -12,3 +12,6 @@ Find minimum number of swaps.
 ## Task 4
 Задача 4. Найти максимальное значение суммы под массива, в котором нет повторяющихся элементов
 - [task4 condition](https://leetcode.com/problems/maximum-erasure-value/)
+## Task 5
+Задача 5. Скользящее окно: Number of Substrings Containing All Three Characters
+- [task5 condition](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)

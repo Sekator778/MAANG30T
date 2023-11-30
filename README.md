@@ -15,3 +15,6 @@ Find minimum number of swaps.
 ## Task 5
 Задача 5. Скользящее окно: Number of Substrings Containing All Three Characters
 - [task5 condition](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/)
+## Task 6
+Задача 6. Связанный список: Reverse Linked List
+- [task6 condition](https://leetcode.com/problems/reverse-linked-list/description/)

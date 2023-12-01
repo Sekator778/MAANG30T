@@ -1,0 +1,8 @@
+задача 5 можна в вал покласти функці і не потріно бескінечний цикл
+            while (true) {
+                if (!isValidWindow(lettersCountInWindow)) {
+                    break;
+                }
+while(isValidWindow(lettersCountInWindow))
+
+задача 7 говорить що складнфст Он але два рази ходимо по списку

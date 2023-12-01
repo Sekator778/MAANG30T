@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.utility.ListNode;
+
 /**
  * Created by dn070578noi on 29.11.23.
  */
@@ -16,19 +18,5 @@ public class Task6 {
             head = originalHead;
         }
         return reversed;
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-    public ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
     }
 }

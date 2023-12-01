@@ -18,3 +18,6 @@ Find minimum number of swaps.
 ## Task 6
 Задача 6. Связанный список: Reverse Linked List
 - [task6 condition](https://leetcode.com/problems/reverse-linked-list/description/)
+## Task 7
+Задача 7. Связанный список: Intersection of Two Linked Lists
+- [task7 condition](https://leetcode.com/problems/intersection-of-two-linked-lists/)

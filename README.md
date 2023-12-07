@@ -21,3 +21,6 @@ Find minimum number of swaps.
 ## Task 7
 Задача 7. Связанный список: Intersection of Two Linked Lists
 - [task7 condition](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+## Task 8
+Задача 8. Связанный список: Palindrome Linked List
+- [task8 condition](https://leetcode.com/problems/palindrome-linked-list/)

@@ -24,9 +24,12 @@ Find minimum number of swaps.
 ## Task 8
 Задача 8. Связанный список: Palindrome Linked List
 - [task8 condition](https://leetcode.com/problems/palindrome-linked-list/)
-
 ## Task 9
-
 Задача 9. Связанный список: Remove Nth Node From End of List
-
 - [task9 condition](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+## Task 10
+
+Задача 10. Связанный список: Partition List
+
+- [task10 condition](https://leetcode.com/problems/partition-list/)

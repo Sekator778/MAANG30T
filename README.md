@@ -30,9 +30,12 @@ Find minimum number of swaps.
 ## Task 10
 Задача 10. Связанный список: Partition List
 - [task10 condition](https://leetcode.com/problems/partition-list/)
-
 ## Task 11
-
 Задача 11. Сортировки: Group Anagrams
-
 - [task11 condition](https://leetcode.com/problems/group-anagrams/)
+
+## Task 12
+
+Задача 12. Сортировки: Merge Sorted Array
+
+- [task12 condition](https://leetcode.com/problems/merge-sorted-array/)

@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by dn070578noi on 09.12.23.
+ * Created by dn070578noi on 10.12.23.
  */
 public class Task11 {
     public List<List<String>> groupAnagrams(String[] strs) {

@@ -6,7 +6,7 @@ package com.example;
 public class Task15 {
     public int maximumSum(int[] nums) {
         int DIGITAL_MAX_SUM = 81;
-        int[] groupedNums = new int[DIGITAL_MAX_SUM];
+        int[] groupedNums = new int[DIGITAL_MAX_SUM + 1];
         int maxSum = -1;
 
         for (int num : nums) {

@@ -38,4 +38,16 @@ Find minimum number of swaps.
 
 Задача 12. Сортировки: Merge Sorted Array
 
+## Task 13
+
+Задача 13. Сортировки: Shortest Unsorted Continuous Subarray
+
+- [task13 condition](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/submissions/)
+
 - [task12 condition](https://leetcode.com/problems/merge-sorted-array/)
+
+## Task 14
+
+Задача 14. Сортировки: Max Chunks To Make Sorted
+
+- [task14 condition](https://leetcode.com/problems/max-chunks-to-make-sorted/)

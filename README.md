@@ -51,3 +51,9 @@ Find minimum number of swaps.
 Задача 14. Сортировки: Max Chunks To Make Sorted
 
 - [task14 condition](https://leetcode.com/problems/max-chunks-to-make-sorted/)
+
+## Task 15
+
+Задача 15. Сортировки: Max Sum of a Pair With Equal Sum of Digits
+
+- [task15 condition](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)

@@ -62,4 +62,10 @@ Find minimum number of swaps.
 
 Задача 16. Куча: Kth Largest Element in an Array
 
-- [task16 condition](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions//)
+- [task16 condition](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/)
+
+## Task 17
+
+Задача 17. Куча: Remove Stones to Minimize the Total
+
+- [task17 condition](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)

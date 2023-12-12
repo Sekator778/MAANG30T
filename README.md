@@ -57,3 +57,9 @@ Find minimum number of swaps.
 Задача 15. Сортировки: Max Sum of a Pair With Equal Sum of Digits
 
 - [task15 condition](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/)
+
+## Task 16
+
+Задача 16. Куча: Kth Largest Element in an Array
+
+- [task16 condition](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions//)

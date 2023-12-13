@@ -69,3 +69,9 @@ Find minimum number of swaps.
 Задача 17. Куча: Remove Stones to Minimize the Total
 
 - [task17 condition](https://leetcode.com/problems/remove-stones-to-minimize-the-total/)
+
+## Task 18
+
+Задача 18. Куча: Find Median from Data Stream
+
+- [task18 condition](https://leetcode.com/problems/find-median-from-data-stream/)

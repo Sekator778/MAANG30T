@@ -75,3 +75,9 @@ Find minimum number of swaps.
 Задача 18. Куча: Find Median from Data Stream
 
 - [task18 condition](https://leetcode.com/problems/find-median-from-data-stream/)
+
+## Task 19
+
+Задача 19. Куча: Maximum Number of Eaten Apples
+
+- [task19 condition](https://leetcode.com/problems/maximum-number-of-eaten-apples/)

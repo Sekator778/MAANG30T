@@ -1,11 +1,14 @@
 package com.example;
 
+import com.example.task1.Task1;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Task1Test {
     private final Task1 task1 = new Task1();
+
     @Test
     void findMinimumSwapsWhenOneSwapNeed() {
         int[] input = {1, 0, 0, 1, 1};

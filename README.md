@@ -81,3 +81,9 @@ Find minimum number of swaps.
 Задача 19. Куча: Maximum Number of Eaten Apples
 
 - [task19 condition](https://leetcode.com/problems/maximum-number-of-eaten-apples/)
+
+## Task 20
+
+Задача 20. Куча: Maximum Number of Events That Can Be Attended
+
+- [task20 condition](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)

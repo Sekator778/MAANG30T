@@ -1,4 +1,4 @@
-package com.example;
+package com.example.test2;
 
 /**
  * Created by dn070578noi on 13.11.23.
@@ -9,15 +9,13 @@ public class Task2 {
         if (array == null || array.length == 0) {
             return 0;
         }
-        int onesCount = 0;
+        int windowSize = 0;
         // find size of the window
         for (int k : array) {
             if (k == 1) {
-                onesCount += 1;
+                windowSize += 1;
             }
         }
-        int windowSize = onesCount;
-
         // look in the first window
         int windowOnesCount = 0;
         for (int i = 0; i < windowSize; i++) {

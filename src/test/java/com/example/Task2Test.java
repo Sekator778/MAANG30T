@@ -1,8 +1,10 @@
 package com.example;
 
+import com.example.test2.Task2;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Task2Test {
 

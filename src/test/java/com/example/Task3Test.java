@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.task3.Task3;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

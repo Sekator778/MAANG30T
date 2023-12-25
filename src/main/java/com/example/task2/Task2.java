@@ -1,4 +1,4 @@
-package com.example.test2;
+package com.example.task2;
 
 /**
  * Created by dn070578noi on 13.11.23.

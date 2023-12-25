@@ -1,4 +1,4 @@
-package com.example;
+package com.example.task4;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by dn070578noi on 29.11.23.
  */
-public class Task4 {
+public class Task41 {
 
     public int getMaxSumUniqueSubArray(int[] nums) {
         Set<Integer> windowNums = new HashSet<>();
@@ -15,7 +15,7 @@ public class Task4 {
         int maxSum = 0;
         int currentSum = 0;
         while (endWindow < nums.length) {
-            int endNum = nums[endWindow];
+            int endNum = nums[startWindow];
             if (!windowNums.contains(endNum)) {
                 windowNums.add(endNum);
                 currentSum += endNum;

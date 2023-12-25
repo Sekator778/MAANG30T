@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by dn070578noi on 29.11.23.
  */
-public class Task41 {
+public class Task4 {
 
     public int getMaxSumUniqueSubArray(int[] nums) {
         Set<Integer> windowNums = new HashSet<>();
@@ -15,7 +15,7 @@ public class Task41 {
         int maxSum = 0;
         int currentSum = 0;
         while (endWindow < nums.length) {
-            int endNum = nums[startWindow];
+            int endNum = nums[endWindow];
             if (!windowNums.contains(endNum)) {
                 windowNums.add(endNum);
                 currentSum += endNum;

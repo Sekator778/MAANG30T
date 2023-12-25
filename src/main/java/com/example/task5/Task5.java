@@ -1,7 +1,4 @@
-package com.example;
-
-import java.util.HashSet;
-import java.util.Set;
+package com.example.task5;
 
 /**
  * Created by dn070578noi on 29.11.23.

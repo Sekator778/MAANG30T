@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.task7.Task7;
 import com.example.utility.ListNode;
 
 import org.junit.jupiter.api.Test;
@@ -26,6 +27,5 @@ class Task7Test {
 
         ListNode intersectionNode = task7.getIntersectionNode(listAHead, listBHead);
         assertEquals(1, intersectionNode.val);
-
     }
 }

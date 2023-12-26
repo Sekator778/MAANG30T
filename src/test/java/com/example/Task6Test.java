@@ -1,10 +1,11 @@
 package com.example;
 
+import com.example.task6.Task6;
 import com.example.utility.ListNode;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class Task6Test {
 

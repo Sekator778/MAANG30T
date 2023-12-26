@@ -1,4 +1,4 @@
-package com.example;
+package com.example.task6;
 
 import com.example.utility.ListNode;
 
@@ -11,11 +11,11 @@ public class Task6 {
         ListNode reversed = null;
 
         while (head != null) {
-            ListNode originalHead = head.next;
+            ListNode originalNext = head.next;
             head.next = reversed;
             reversed = head;
 
-            head = originalHead;
+            head = originalNext;
         }
         return reversed;
     }

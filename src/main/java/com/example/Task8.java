@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.task6.Task6;
 import com.example.utility.ListNode;
 
 import java.util.Stack;

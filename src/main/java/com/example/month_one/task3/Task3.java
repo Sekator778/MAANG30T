@@ -1,4 +1,4 @@
-package com.example.task3;
+package com.example.month_one.task3;
 
 /**
  * Created by dn070578noi on 19.11.23.

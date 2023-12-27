@@ -1,6 +1,6 @@
-package com.example.task8;
+package com.example.month_one.task8;
 
-import com.example.task6.Task6;
+import com.example.month_one.task6.Task6;
 import com.example.utility.ListNode;
 
 import java.util.Stack;

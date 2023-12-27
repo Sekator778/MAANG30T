@@ -1,9 +1,9 @@
-package com.example.task1;
+package com.example.month_one.task2;
 
 /**
- * Created by dn070578noi on 12.11.23.
+ * Created by dn070578noi on 13.11.23.
  */
-public class Task1 {
+public class Task2 {
 
     public int getMinimumSwapCounts(int[] array) {
         if (array == null || array.length == 0) {
@@ -28,14 +28,18 @@ public class Task1 {
 
         int windowStart = 1;
         int windowEnd = windowSize;
+        // length of the circular array + window size
+        int circularSize = array.length + windowSize;
         // move window to the right
-        while (windowEnd < array.length) {
+        while (windowEnd < circularSize) {
             // if left element is 1 then decrease count
             if (array[windowStart - 1] == 1) {
                 windowOnesCount -= 1;
             }
             // if right element is 1 then increase count
-            if (array[windowEnd] == 1) {
+            // if windowEnd is out of array.length then get element from the beginning of the array
+            // (windowEnd % array.length)
+            if (array[windowEnd % array.length] == 1) {
                 windowOnesCount += 1;
             }
             // update max

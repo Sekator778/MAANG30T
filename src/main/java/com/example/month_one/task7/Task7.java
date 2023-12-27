@@ -1,4 +1,4 @@
-package com.example.task7;
+package com.example.month_one.task7;
 
 import com.example.utility.ListNode;
 import com.example.utility.ListTailAndSize;

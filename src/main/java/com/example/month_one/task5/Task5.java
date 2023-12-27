@@ -1,4 +1,4 @@
-package com.example.task5;
+package com.example.month_one.task5;
 
 /**
  * Created by dn070578noi on 29.11.23.

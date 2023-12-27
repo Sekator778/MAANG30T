@@ -1,6 +1,6 @@
-package com.example;
+package com.example.month_one;
 
-import com.example.task5.Task5;
+import com.example.month_one.task5.Task5;
 
 import org.junit.jupiter.api.Test;
 

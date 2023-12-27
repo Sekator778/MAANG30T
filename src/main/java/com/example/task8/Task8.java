@@ -1,4 +1,4 @@
-package com.example;
+package com.example.task8;
 
 import com.example.task6.Task6;
 import com.example.utility.ListNode;
@@ -12,9 +12,8 @@ public class Task8 {
 
     public boolean isPalindrome(ListNode head) {
         Stack<Integer> stack = new Stack<>();
-        ListNode slow = head;
         ListNode fast = head;
-
+        ListNode slow = head;
         while (fast != null && fast.next != null) {
             stack.push(slow.val);
             slow = slow.next;
@@ -24,7 +23,7 @@ public class Task8 {
             slow = slow.next;
         }
         while (slow != null) {
-            if (slow.val != stack.pop()) {
+            if (stack.pop() != slow.val) {
                 return false;
             }
             slow = slow.next;

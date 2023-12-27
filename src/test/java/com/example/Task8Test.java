@@ -1,5 +1,6 @@
 package com.example;
 
+import com.example.task8.Task8;
 import com.example.utility.ListNode;
 
 import org.junit.jupiter.api.Test;
@@ -49,8 +50,11 @@ class Task8Test {
         ListNode node4 = new ListNode(3, node3);
         ListNode node5 = new ListNode(2, node4);
         ListNode head = new ListNode(1, node5);
-
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println(head);
         assertTrue(task8.isPalindrome(head));
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println(head);
     }
 
     /**
@@ -127,8 +131,11 @@ class Task8Test {
         ListNode node4 = new ListNode(3, node3);
         ListNode node5 = new ListNode(2, node4);
         ListNode head = new ListNode(1, node5);
-
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println(head);
         assertTrue(task8.isPalindrome2(head));
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println(head);
     }
 
     /**
@@ -146,5 +153,26 @@ class Task8Test {
 
         assertFalse(task8.isPalindrome2(head));
     }
+
+    /**
+     * 1 -> 2 -> 3 -> 3 -> 2 -> 6
+     */
+    @Test
+    void test10() {
+        Task8 task8 = new Task8();
+        ListNode tail = new ListNode(6);
+        ListNode node1 = new ListNode(2, tail);
+        ListNode node2 = new ListNode(3, node1);
+        ListNode node3 = new ListNode(3, node2);
+        ListNode node4 = new ListNode(2, node3);
+        ListNode head = new ListNode(1, node4);
+        System.out.println("++++++++++++++++++++++++++++++"); /*TODO список поламаний якщо не паліндром */
+        System.out.println(head);
+        assertFalse(task8.isPalindrome2(head));
+        System.out.println("++++++++++++++++++++++++++++++");
+        System.out.println(head);
+    }
+
+
 
 }

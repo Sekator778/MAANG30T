@@ -1,8 +1,11 @@
 package com.example.utility;
 
+import lombok.ToString;
+
 /**
  * Created by dn070578noi on 01.12.23.
  */
+@ToString
 public class ListNode {
     public int val;
     public ListNode next;

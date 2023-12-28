@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one.task12;
 
 /**
  * Created by dn070578noi on 10.12.23.
@@ -25,5 +25,6 @@ public class Task12 {
             lastIndexRight -= 1;
             insertionIndex -= 1;
         }
+
     }
 }

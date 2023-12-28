@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one;
 
 import com.example.month_one.task10.Task10;
 import com.example.utility.ListNode;

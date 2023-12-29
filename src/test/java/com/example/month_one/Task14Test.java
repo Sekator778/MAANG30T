@@ -1,6 +1,6 @@
 package com.example.month_one;
 
-import com.example.Task14;
+import com.example.month_one.task14.Task14;
 
 import org.junit.jupiter.api.Test;
 
@@ -45,6 +45,22 @@ class Task14Test {
     void test3() {
         int[] input = {1, 2, 0, 3};
         int expected = 2;
+        int actual = new Task14().maxChunksToSorted(input);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void test4() {
+        int[] input = {0};
+        int expected = 1;
+        int actual = new Task14().maxChunksToSorted(input);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void test5() {
+        int[] input = {0, 1, 2}; /*TODO wtf?*/
+        int expected = 3;
         int actual = new Task14().maxChunksToSorted(input);
         assertEquals(expected, actual);
     }

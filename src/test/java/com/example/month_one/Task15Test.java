@@ -1,6 +1,6 @@
 package com.example.month_one;
 
-import com.example.Task15;
+import com.example.month_one.task15.Task15;
 
 import org.junit.jupiter.api.Test;
 
@@ -34,4 +34,7 @@ class Task15Test {
         int actual = new Task15().maximumSum(nums);
         assertEquals(expected, actual);
     }
+
+    // Example 3:
+
 }

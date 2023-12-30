@@ -6,6 +6,7 @@ import java.util.Queue;
 
 /**
  * Created by dn070578noi on 11.12.23.
+ * нІКОЛАЙЧУК
  */
 public class Task15 {
     public int maximumSum(int[] nums) {

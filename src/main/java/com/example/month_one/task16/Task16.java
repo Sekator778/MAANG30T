@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one.task16;
 
 import java.util.PriorityQueue;
 import java.util.Queue;

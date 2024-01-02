@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one.task17;
 
 import java.util.Arrays;
 import java.util.Collections;

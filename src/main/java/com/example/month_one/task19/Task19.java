@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one.task19;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -28,24 +28,25 @@ public class Task19 {
         Queue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[ROTTEN_DATE] - b[ROTTEN_DATE]);
 
         while (true) {
+            // if possible to work
             if (date >= dates.length && minHeap.isEmpty()) {
                 break;
             }
-
+            // throw away the apples which are rotten
             while (true) {
                 if (minHeap.isEmpty()) {
                     break;
                 }
-
                 if (date < minHeap.peek()[ROTTEN_DATE]) {
                     break;
                 }
-
                 minHeap.poll();
             }
+            // add box to heap
             if (date < dates.length && apples[date] > 0) {
                 minHeap.add(new int[]{dates[date] + date, apples[date]});
             }
+            // eating apple
             if (!minHeap.isEmpty()) {
                 eatenApplesCount += 1;
                 if (minHeap.peek()[APPLES_COUNT] == 1) {

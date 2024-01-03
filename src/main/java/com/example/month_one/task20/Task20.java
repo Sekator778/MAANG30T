@@ -1,4 +1,4 @@
-package com.example;
+package com.example.month_one.task20;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
@@ -6,8 +6,8 @@ import java.util.Queue;
 
 /**
  * Created by dn070578noi on 19.12.23.
- * You are given an array of events where events[i] = [startDayi,
- * endDayi]. Every event i starts at startDayi and ends at endDayi.
+ * You are given an array of events where events[i] = [startDayi,endDayi].
+ * Every event i starts at startDayi and ends at endDayi.
  * <p>
  * You can attend an event i at any day d where startTimei <= d <= endTimei.
  * You can only attend one event at any time d.

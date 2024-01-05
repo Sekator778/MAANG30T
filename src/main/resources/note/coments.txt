@@ -16,3 +16,4 @@ while(isValidWindow(lettersCountInWindow))
 задача 13 потрібно повторити (hard)
 
 задача 20 потрібно повторити
+

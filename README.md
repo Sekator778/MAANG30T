@@ -93,3 +93,9 @@ Find minimum number of swaps.
 Задача 21. Монотонная последовательность: Smallest Subsequence of Distinct Characters
 
 - [task21 condition](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/1136906972/)
+
+## Task 22
+
+Задача 22. Монотонная последовательность: Longest Continuous Subarray With Absolute Limit
+
+- [task22 condition](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/)

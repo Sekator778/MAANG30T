@@ -87,3 +87,9 @@ Find minimum number of swaps.
 Задача 20. Куча: Maximum Number of Events That Can Be Attended
 
 - [task20 condition](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
+
+## Task 21
+
+Задача 21. Монотонная последовательность: Smallest Subsequence of Distinct Characters
+
+- [task21 condition](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/submissions/1136906972/)

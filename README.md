@@ -99,3 +99,9 @@ Find minimum number of swaps.
 Задача 22. Монотонная последовательность: Longest Continuous Subarray With Absolute Limit
 
 - [task22 condition](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/description/)
+
+## Task 23
+
+Задача 23. Монотонная последовательность: Remove K Digits
+
+- [task23 condition](https://leetcode.com/problems/remove-k-digits/)

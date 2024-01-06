@@ -105,3 +105,9 @@ Find minimum number of swaps.
 Задача 23. Монотонная последовательность: Remove K Digits
 
 - [task23 condition](https://leetcode.com/problems/remove-k-digits/)
+
+## Task 24
+
+Задача 24. Монотонная последовательность: Daily Temperatures
+
+- [task24 condition](https://leetcode.com/problems/daily-temperatures/)

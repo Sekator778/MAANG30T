@@ -111,3 +111,9 @@ Find minimum number of swaps.
 Задача 24. Монотонная последовательность: Daily Temperatures
 
 - [task24 condition](https://leetcode.com/problems/daily-temperatures/)
+
+## Task 25
+
+Задача 25. Монотонная последовательность: Steps to Make Array Non-decreasing
+
+- [task25 condition](https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/)

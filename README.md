@@ -117,3 +117,9 @@ Find minimum number of swaps.
 Задача 25. Монотонная последовательность: Steps to Make Array Non-decreasing
 
 - [task25 condition](https://leetcode.com/problems/steps-to-make-array-non-decreasing/description/)
+
+## Task 26
+
+Задача 26. Два указателя: Find Min Abs Diff In 2 Sorted Arrays
+
+## Task 27

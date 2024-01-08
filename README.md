@@ -123,3 +123,7 @@ Find minimum number of swaps.
 Задача 26. Два указателя: Find Min Abs Diff In 2 Sorted Arrays
 
 ## Task 27
+
+Задача 27. Два указателя: Minimum Number of Swaps to Make the String Balanced
+
+- [task27 condition](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/)

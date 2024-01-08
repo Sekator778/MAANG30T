@@ -5,7 +5,7 @@ package com.example.month_one.task26;
  */
 public class Task26 {
     public int[] findMinAbsDiff(int[] arr1, int[] arr2) {
-        // мінімально вохможна різниця
+        // мінімально можлива різниця
         int minAbsDiff = Integer.MAX_VALUE;
         // два указателя на два массива
         int index1 = 0;

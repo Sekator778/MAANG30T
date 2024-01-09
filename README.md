@@ -127,3 +127,9 @@ Find minimum number of swaps.
 Задача 27. Два указателя: Minimum Number of Swaps to Make the String Balanced
 
 - [task27 condition](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/)
+
+## Task 28
+
+Задача 29. Два указателя: K-diff Pairs in an Array
+
+- [task28 condition](https://leetcode.com/problems/k-diff-pairs-in-an-array/)

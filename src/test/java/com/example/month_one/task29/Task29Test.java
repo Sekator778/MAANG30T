@@ -1,10 +1,10 @@
-package com.example.month_one.task28;
+package com.example.month_one.task29;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Task28Test {
+class Task29Test {
     //    Example 1:
 //
 //Input: nums = [3,1,4,1,5], k = 2
@@ -16,7 +16,7 @@ class Task28Test {
         int[] nums = {3, 1, 4, 1, 5};
         int k = 2;
         int expected = 2;
-        int actual = new Task28().findPairs(nums, k);
+        int actual = new Task29().findPairs(nums, k);
         assertEquals(expected, actual);
     }
 
@@ -30,7 +30,7 @@ class Task28Test {
         int[] nums = {1, 2, 3, 4, 5};
         int k = 1;
         int expected = 4;
-        int actual = new Task28().findPairs(nums, k);
+        int actual = new Task29().findPairs(nums, k);
         assertEquals(expected, actual);
     }
 
@@ -44,7 +44,7 @@ class Task28Test {
         int[] nums = {1, 3, 1, 5, 4};
         int k = 0;
         int expected = 1;
-        int actual = new Task28().findPairs(nums, k);
+        int actual = new Task29().findPairs(nums, k);
         assertEquals(expected, actual);
     }
 

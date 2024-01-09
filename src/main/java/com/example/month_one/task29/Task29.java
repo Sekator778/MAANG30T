@@ -1,4 +1,4 @@
-package com.example.month_one.task28;
+package com.example.month_one.task29;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by dn070578noi on 09.01.24.
  */
-public class Task28 {
+public class Task29 {
     public int findPairs(int[] nums, int k) {
         int arrLength = nums.length;
         Map<Integer, Integer> numToIndex = new HashMap<>(arrLength);

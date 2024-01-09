@@ -128,8 +128,14 @@ Find minimum number of swaps.
 
 - [task27 condition](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/)
 
-## Task 28
+## Task 29
 
 Задача 29. Два указателя: K-diff Pairs in an Array
 
-- [task28 condition](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+- [task29 condition](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
+
+## Task 30
+
+Задача 30. Два указателя: Find the Maximum Number of Marked Indices
+
+- [task29 condition](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/)

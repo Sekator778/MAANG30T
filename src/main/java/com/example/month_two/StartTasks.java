@@ -41,9 +41,11 @@ public class StartTasks {
      * Из натурального числа N создайте строку, содержащую все цифри в обратном порядке, разделенние запятими
      */
     public String getReverseString(int num) {
+        // базовий випадок
         if (num < 10) return "" + num;
+        // задача меньшого розміру
         String nextChar = getReverseString(num / 10);
-
+        // обчислення результату
         int currentChar = num % 10;
         return currentChar + "," + nextChar;
     }

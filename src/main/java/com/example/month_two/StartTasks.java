@@ -31,6 +31,7 @@ public class StartTasks {
     /**
      * Напишите рекурсивную функцию кoторая находит максимальний елемент в массиве.
      */
+    /*TODO fix it*/
     public int getMaxElement(List<Integer> array) {
         if (array.size() == 1) return array.get(0);
 

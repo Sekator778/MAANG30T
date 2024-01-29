@@ -21,7 +21,7 @@ public class StartTasks {
 
     public int getMaxElement(List<Integer> array, int size) {
         // базовий випадок
-        if (size == 1) return array.get(size - 1);
+        if (size == 1) return array.getFirst();
         // задача меньшого розміру
         int maxInShorterList = getMaxElement(array, size - 1);
         // обчислення результату
@@ -31,11 +31,10 @@ public class StartTasks {
     /**
      * Напишите рекурсивную функцию кoторая находит максимальний елемент в массиве.
      */
-    /*TODO fix it*/
     public int getMaxElement(List<Integer> array) {
-        if (array.size() == 1) return array.get(0);
+        if (array.size() == 1) return array.getFirst();
 
-        return getMaxElement(array, array.size() - 1);
+        return getMaxElement(array, array.size());
     }
 
     /**

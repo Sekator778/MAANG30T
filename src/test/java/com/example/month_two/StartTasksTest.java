@@ -29,8 +29,10 @@ class StartTasksTest {
         StartTasks startTasks = new StartTasks();
         assertEquals(1, startTasks.getMaxElement(List.of(1)));
         List<Integer> list = new ArrayList<>();
+
         list.add(1);
         list.add(2);
+
         assertEquals(2, startTasks.getMaxElement(list));
     }
 

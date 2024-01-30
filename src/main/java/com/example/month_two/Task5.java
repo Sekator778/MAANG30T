@@ -16,8 +16,7 @@ public class Task5 {
             nums.add(numCandidate);
             return;
         }
-        int lastDigit = numCandidate % 10;
-        if (diff == 0) {
+        int lastDigit = numCandidate % 10;        if (diff == 0) {
             int newNum = concatenateDigit(numCandidate, lastDigit);
             getAllInts(newNum, digitsCount-1, diff, nums);
             return;
@@ -31,7 +30,6 @@ public class Task5 {
             getAllInts(newNum, digitsCount-1, diff, nums);
         }
     }
-
 
     int concatenateDigit(int num, int digit) {
         return num * 10 + digit;

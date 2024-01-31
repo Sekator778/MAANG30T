@@ -11,6 +11,7 @@ public class Task03 {
     public void printTransforms(String word){
         printTransforms("", word);
     }
+
     private void printTransforms(String candidate, String chars) {
         if (chars.isEmpty()) {
             System.out.println(candidate);
@@ -28,27 +29,25 @@ public class Task03 {
 
 
 
-
-    /*public List<String> findTransforms(String word) {
+/*optimized version*/
+    public List<String> letterCasePermutation(String word) {
         List<String> result = new ArrayList<>();
-        char ch = 0;
-        addCandidate(0, ch, new StringBuilder(word.length()), word, result);
+        addCandidate(0, "", result, word);
         return result;
     }
 
-    private void addCandidate(int index, char ch, StringBuilder candidate, String chars, List<String> result) {
-        if (index == chars.length()) {
-            result.add(candidate.toString());
+    private void addCandidate(int index, String candidate, List<String> result, String word) {
+        if (index == word.length()) {
+            result.add(candidate);
             return;
+        }
+        char nextChar = word.charAt(index);
 
-        }
-        candidate.append(ch);
-        index+=1;
-        if (Character.isDigit(chars.charAt(index))) {
-            addCandidate(index, chars.charAt(index), candidate, chars, result);
+        if (Character.isDigit(nextChar)) {
+            addCandidate(index+1, candidate + nextChar, result, word);
         } else {
-            addCandidate(index, Character.toLowerCase(chars.charAt(index)), candidate, chars, result);
-            addCandidate(index, Character.toUpperCase(chars.charAt(index)), candidate, chars, result);
+            addCandidate(index+1, candidate + Character.toLowerCase(nextChar), result, word);
+            addCandidate(index+1, candidate + Character.toUpperCase(nextChar), result, word);
         }
-    }*/
+    }
     }

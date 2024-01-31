@@ -45,9 +45,35 @@ public class Task03 {
 
         if (Character.isDigit(nextChar)) {
             addCandidate(index+1, candidate + nextChar, result, word);
-        } else {
+            return;
+        }
             addCandidate(index+1, candidate + Character.toLowerCase(nextChar), result, word);
             addCandidate(index+1, candidate + Character.toUpperCase(nextChar), result, word);
+
+    }
+
+    public List<String> letterCasePermutation2(String s) {
+        if(s == null || s.isEmpty()) return new ArrayList<>();
+
+        List<String> result = new ArrayList<>();
+
+        helper(s.toCharArray(), 0, result);
+
+        return result;
+    }
+
+    private void helper(char[] charArray, int i, List<String> result) {
+        if (i == charArray.length) {
+            result.add(new String(charArray));
+            return;
+        }
+        if (Character.isDigit(charArray[i])) {
+            helper(charArray, i+1, result);
+        } else {
+            charArray[i] = Character.toLowerCase(charArray[i]);
+            helper(charArray, i+1, result);
+           charArray[i] = Character.toUpperCase(charArray[i]);
+           helper(charArray, i+1, result);
         }
     }
-    }
+}

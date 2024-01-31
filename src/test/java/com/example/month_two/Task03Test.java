@@ -38,4 +38,20 @@ class Task03Test {
         Task03 task03 = new Task03();
         assertEquals(expect, task03.letterCasePermutation(word));
     }
+
+    @Test
+    void letterCasePermutation2() {
+        String word = "a1b2";
+        List<String> expect = List.of("a1b2", "a1B2", "A1b2", "A1B2");
+        Task03 task03 = new Task03();
+        assertEquals(expect, task03.letterCasePermutation2(word));
+    }
+
+    @Test
+    void letterCasePermutation3() {
+        String word = "3z4";
+        List<String> expect = List.of("3z4", "3Z4");
+        Task03 task03 = new Task03();
+        assertEquals(expect, task03.letterCasePermutation2(word));
+    }
 }

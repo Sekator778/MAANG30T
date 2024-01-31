@@ -3,7 +3,7 @@ package com.example.month_two;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task5 {
+public class Task05 {
     int[] numsSameConsecDiff(int digitsCount, int diff) {
         List<Integer> nums = new ArrayList<>();
         for (int digit = 1; digit <= 9; digit++) {
@@ -16,7 +16,8 @@ public class Task5 {
             nums.add(numCandidate);
             return;
         }
-        int lastDigit = numCandidate % 10;        if (diff == 0) {
+        int lastDigit = numCandidate % 10;
+        if (diff == 0) {
             int newNum = concatenateDigit(numCandidate, lastDigit);
             getAllInts(newNum, digitsCount-1, diff, nums);
             return;

@@ -1,4 +1,4 @@
-package com.example.month_two;
+package com.example.recursion;
 
 public class Task01 {
     public void printFrogWays(int step) {

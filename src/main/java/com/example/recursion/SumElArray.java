@@ -1,4 +1,4 @@
-package com.example.month_two;
+package com.example.recursion;
 
 /**
  * Created by dn070578noi on 14.01.24.

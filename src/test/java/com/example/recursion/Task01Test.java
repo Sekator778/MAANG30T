@@ -1,8 +1,6 @@
-package com.example.month_two;
+package com.example.recursion;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class Task01Test {
 

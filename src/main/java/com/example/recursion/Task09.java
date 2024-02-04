@@ -4,32 +4,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Task09 {
-    int palindromeMaxProduct = 0;
 
     public int maxProduct(String s) {
-        getPalindromeMaxProduct(new ArrayList<>(), new ArrayList<>(), 0, s);
-        return palindromeMaxProduct;
+        return getPalindromeMaxProduct(new ArrayList<>(), new ArrayList<>(), 0, s, new int[]{0})[0];
     }
 
-
-    void getPalindromeMaxProduct(List<Character> candidate1, List<Character> candidate2, int startIndex, String word) {
+    int[] getPalindromeMaxProduct(List<Character> candidate1, List<Character> candidate2,
+                                  int startIndex, String word, int[] palindromeMaxProduct) {
         if (startIndex == word.length()) {
             if (isPalindrome(candidate1) && isPalindrome(candidate2)) {
-                palindromeMaxProduct = Math.max(palindromeMaxProduct,
+                palindromeMaxProduct[0] = Math.max(palindromeMaxProduct[0],
                         candidate1.size() * candidate2.size());
             }
-            return;
+            return palindromeMaxProduct;
         }
         char letter = word.charAt(startIndex);
         candidate1.add(letter);
-        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word);
+        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word, palindromeMaxProduct);
         candidate1.removeLast();
 
         candidate2.add(letter);
-        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word);
+        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word, palindromeMaxProduct);
         candidate2.removeLast();
 
-        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word);
+        getPalindromeMaxProduct(candidate1, candidate2, startIndex + 1, word, palindromeMaxProduct);
+        return palindromeMaxProduct;
     }
 
 

@@ -12,4 +12,5 @@
 - [task12 condition](https://
 - https://leetcode.com/problems/matchsticks-to-square/.com/problems/matchsticks-to-square/)
 #Task13
-  Задача 13
+  Задача 13. Полный перебор. Partition to K Equal Sum Subsets
+- [task13 condition](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/description/)

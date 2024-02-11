@@ -8,7 +8,7 @@ public class Task14 {
             return 1;
         }
         Arrays.sort(tasks);
-        for (int sessionCount = 1; sessionCount < tasks.length; sessionCount++) {
+        for (int sessionCount = 1; sessionCount <= tasks.length; sessionCount++) {
             if (tasksFitInSession(new int[sessionCount], tasks.length - 1, tasks, sessionTime)) {
                 return sessionCount;
             }

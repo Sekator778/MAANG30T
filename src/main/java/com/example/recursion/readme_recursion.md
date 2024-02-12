@@ -18,3 +18,6 @@
   #Task15
   Задача 15. Полный перебор. Fair Distribution of Cookies
 - [task15 condition](https://leetcode.com/problems/fair-distribution-of-cookies/description/)
+    #Task16
+  Задача 16. Перестановки. Permutations
+- [task16 condition](https://leetcode.com/problems/permutations/)

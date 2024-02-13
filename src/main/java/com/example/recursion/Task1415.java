@@ -1,6 +1,6 @@
 package com.example.recursion;
 
-public class Task18 {
+public class Task1415 {
     public String getHappyString(int n, int k) {
         return getKthWord(new StringBuilder(n), new int[]{k}, n);
     }

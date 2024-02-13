@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class Task18Test {
+class Task1415Test {
 
 //    Example 1:
 //    Input

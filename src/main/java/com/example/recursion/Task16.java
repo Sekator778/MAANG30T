@@ -3,6 +3,9 @@ package com.example.recursion;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * all permutations of an array
+ */
 public class Task16 {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> permutations = new ArrayList<>();

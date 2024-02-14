@@ -1,5 +1,6 @@
-package com.example.recursion.doc;
+package com.example.recursion;
 
+import com.example.recursion.doc.Lecture11;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

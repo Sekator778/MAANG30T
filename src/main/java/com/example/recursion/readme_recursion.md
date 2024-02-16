@@ -25,3 +25,6 @@
 - [1415 condition](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/)
 1079. Letter Tile Possibilities
 - [1079 condition](https://leetcode.com/problems/letter-tile-possibilities/description/)
+47. Permutations II
+- [47 condition](https://leetcode.com/problems/permutations-ii/description/)
+

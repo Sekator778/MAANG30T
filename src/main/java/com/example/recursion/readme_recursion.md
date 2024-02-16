@@ -27,4 +27,7 @@
 - [1079 condition](https://leetcode.com/problems/letter-tile-possibilities/description/)
 47. Permutations II
 - [47 condition](https://leetcode.com/problems/permutations-ii/description/)
+1718. Construct the Lexicographically Largest Valid Sequence
+- [1718 condition](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/description/)
+
 

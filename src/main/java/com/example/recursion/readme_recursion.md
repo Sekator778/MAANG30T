@@ -31,5 +31,5 @@
 - [1718 condition](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/description/)
 1947. Maximum Compatibility Score Sum
 - [1947 condition](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)
-
-
+77. Combinations
+- [77 condition](https://leetcode.com/problems/combinations/description/)

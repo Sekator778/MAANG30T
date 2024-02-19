@@ -33,3 +33,5 @@
 - [1947 condition](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)
 77. Combinations
 - [77 condition](https://leetcode.com/problems/combinations/description/)
+216. Combination Sum III
+- [216 condition](https://leetcode.com/problems/combination-sum-iii/description/)

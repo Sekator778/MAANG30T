@@ -20,9 +20,8 @@ public class Task39 {
             if (targetSum < 0) {
                 return;
             }
-            int newSum = targetSum - nums[i];
             candidate.add(nums[i]);
-            getUniqueCombs(candidate, newSum, i, nums, uniqueCombinations);
+            getUniqueCombs(candidate, targetSum - nums[i], i, nums, uniqueCombinations);
             candidate.removeLast();
         }
     }

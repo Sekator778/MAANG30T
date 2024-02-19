@@ -35,3 +35,5 @@
 - [77 condition](https://leetcode.com/problems/combinations/description/)
 216. Combination Sum III
 - [216 condition](https://leetcode.com/problems/combination-sum-iii/description/)
+39. Combination Sum
+- [39 condition](https://leetcode.com/problems/combination-sum/description/)

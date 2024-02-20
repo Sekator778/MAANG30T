@@ -37,3 +37,5 @@
 - [216 condition](https://leetcode.com/problems/combination-sum-iii/description/)
 39. Combination Sum
 - [39 condition](https://leetcode.com/problems/combination-sum/description/)
+638. Shopping Offers
+- [638 condition](https://leetcode.com/problems/shopping-offers/description/)

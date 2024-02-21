@@ -41,3 +41,5 @@
 - [638 condition](https://leetcode.com/problems/shopping-offers/description/)
 78. Subsets
 - [78 condition](https://leetcode.com/problems/subsets/description/)
+2044. Count Number of Maximum Bitwise-OR Subsets
+- [2044 condition](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/)

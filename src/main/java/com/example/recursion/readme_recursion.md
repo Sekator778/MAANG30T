@@ -43,3 +43,5 @@
 - [78 condition](https://leetcode.com/problems/subsets/description/)
 2044. Count Number of Maximum Bitwise-OR Subsets
 - [2044 condition](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/description/)
+2597. The Number of Beautiful Subsets
+- [2597 condition](https://leetcode.com/problems/the-number-of-beautiful-subsets/description/)

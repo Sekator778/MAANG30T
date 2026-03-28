@@ -6,36 +6,30 @@ import java.util.List;
 class EncodeDecodeString {
 
     public String encode(List<String> strs) {
-        StringBuilder encStr = new StringBuilder();
-        for (String s : strs) {
-            encStr
-                    .append(s.length())
-                    .append("#")
-                    .append(s)
-            ;
+        StringBuilder output = new StringBuilder();
+
+        for(String str: strs) {
+            int length = str.length();
+            output.append(length).append("#").append(str);
         }
-
-        return encStr.toString();
-
+        return output.toString();
     }
 
     public List<String> decode(String str) {
+        List<String> strs = new ArrayList<>();
         int start = 0;
         int end = 0;
-        List<String> decoder = new ArrayList<>();
-        while (end < str.length()) {
-            while (str.charAt(end) != '#') {
+        while(end<str.length()) {
+            if(str.charAt(end) == '#') {
+                int length = Integer.parseInt(str.substring(start, end));
+                start = end + 1;
+                end = end + length + 1;
+                strs.add(str.substring(start, end));
+                start = end;
+            } else {
                 end++;
             }
-            int strSize = Integer.parseInt(
-                    str.substring(start, end));
-            start = end + 1;
-            end = end + strSize + 1;
-            String s = str.substring(start, end);
-            decoder.add(s);
-            start = end;
         }
-
-        return decoder;
+        return strs;
     }
 }

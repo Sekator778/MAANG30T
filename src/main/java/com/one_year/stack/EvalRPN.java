@@ -8,17 +8,21 @@ class EvalRPN {
         Deque<Integer> stack = new ArrayDeque<>();
         for (String token : tokens) {
             switch (token) {
-                case "+", "-", "*", "/" -> {
-                    int right = stack.pop();
-                    int left = stack.pop();
-                    int result = switch (token) {
-                        case "+" -> left + right;
-                        case "-" -> left - right;
-                        case "*" -> left * right;
-                        case "/" -> left / right;
-                        default -> 0;
-                    };
-                    stack.push(result);
+                case "+" -> {
+                    int r = stack.pop();
+                    stack.push(stack.pop() + r);
+                }
+                case "-" -> {
+                    int r = stack.pop();
+                    stack.push(stack.pop() - r);
+                }
+                case "*" -> {
+                    int r = stack.pop();
+                    stack.push(stack.pop() * r);
+                }
+                case "/" -> {
+                    int r = stack.pop();
+                    stack.push(stack.pop() / r);
                 }
                 default -> stack.push(Integer.parseInt(token));
             }

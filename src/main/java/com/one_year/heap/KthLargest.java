@@ -1,4 +1,4 @@
-package com.one_year.prefix_sum;
+package com.one_year.heap;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -10,11 +10,13 @@ class KthLargest {
         this.minHeap = new PriorityQueue<>();
         for(int num:nums) {
             minHeap.offer(num);
-            if (minHeap.size() > k) minHeap.poll();
+            if (minHeap.size() > k) {
+                minHeap.poll();
+            }
         }
         this.k=k;
     }
-
+    
     public int add(int val) {
         minHeap.offer(val);
         if(minHeap.size()>k) {
